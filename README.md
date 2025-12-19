@@ -24,6 +24,7 @@ Configure my sql in .env
 
 ### 4. Run Migrations & Seeders
 php artisan migrate --seed
+php artisan migrate --seed --env=testing
 
 ### 5. Run Application
 php artisan serve
